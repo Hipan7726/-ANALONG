@@ -1,0 +1,42 @@
+[
+  {
+    "id": "q001",
+    "title": "유나와 대화",
+    "description": "1층에 있는 유나와 대화를 하자.",
+    "triggerType": "TalkToNPC",
+    "target": "Dialogue1",
+    "nextQuestId": "q002",
+    "rewards": { "gold": 1000, "gp": 5000 },
+    "targetPosition" : {"x":-17,"y":0.1, "z":-6.86}
+  },
+  {
+    "id": "q002",
+    "title": "2층으로 올라가기",
+    "description": "새로운 내집을 가보자!.",
+    "triggerType": "TalkToNPC",
+    "target": "Dialogue2",
+    "nextQuestId": "q003",
+    "rewards": { "gold": 1000, "gp": 5000 },
+    "targetPosition" : {"x":-2.5,"y":4, "z":-2.5}
+  }, 
+  {
+    "id": "q003",
+    "title": "HDM으로 가자",
+    "description": "HDM에서 의뢰 한번 받기",
+    "triggerType": "TalkToNPC",
+    "target": "Dialogue3",
+    "nextQuestId": "q004",
+    "rewards": { "gold": 1000, "gp": 5000 },
+    "targetPosition" : {"x":1.696,"y":4.183, "z":-5.404}
+  },
+  {
+    "id": "q004",
+    "title": "의뢰 완료하기",
+    "description": "의뢰 완료하기",
+    "triggerType": "TalkToNPC",
+    "target": "Dialogue4",
+    "nextQuestId": "",
+    "rewards": { "gold": 1000, "gp": 5000 },
+    "targetPosition" : {"x":2.1874,"y":5.7615, "z":-8.09941}
+  }
+]

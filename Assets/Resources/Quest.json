@@ -1,0 +1,17 @@
+{
+  "quests": [
+    {
+      "QuestId": "Quest001",
+      "QuestName": "새로운 내집",
+      "Description": "2층으로 가자.",
+      "TargetItem": "",
+      "TargetCount": 0,
+      "RewardMoney": 100,
+      "RewardGp": 10,
+      "previousQuestId": "",
+      "targetX": 2.5,
+      "targetY": 4.0,
+      "targetZ": 0.0
+    }
+  ]
+}
